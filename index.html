@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Dearest 💌</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 class="hero-title">A Love Letter Just for You 💖</h1>
+    <p class="hero-subtitle">Tap the envelope to unlock my heart’s words...</p>
+
+    <div class="envelope-container">
+      <div class="envelope" id="envelope">
+        <div class="flap"></div>
+        <div class="ribbon"></div>
+        <div class="seal">💌</div>
+      </div>
+    </div>
+
+    <div class="expanded-letter" id="expanded-letter">
+      <div class="letter-frame">
+        <div class="letter-content">
+          <h2 class="letter-title">To My Forever Love,</h2>
+          <p class="letter-body">
+            Your presence brings joy to my soul and peace to my heart.  
+            Every moment with you feels like a page from a fairytale. 🌸
+          </p>
+
+          <p class="closing-note">
+            Forever yours, <br> [Your Name] 💌
+          </p>
+
+          <button id="close-btn" class="close-btn">Close Letter</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Vinyl Record -->
+  <div class="vinyl" id="vinyl">
+    <div class="album-cover"></div>  <!-- Album cover inside the vinyl -->
+  </div>
+
+  <audio id="background-music" loop>
+    <source src="./assets/love.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
